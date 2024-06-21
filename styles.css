@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+nav.menu1 {
+    background-color: #444;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.menu-bar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-bar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu-bar li:last-child {
+    margin-right: 0;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-bar a:hover {
+    background-color: #555;
+}
+
+.menu2 {
+    background-color: #f9f9f9;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.menu2 .menu-bar {
+    margin: 0;
+    padding: 0;
+}
+
+.menu2 .menu-bar button {
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+.menu2 .menu-bar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu2 .menu-bar li:last-child {
+    margin-right: 0;
+}
+
+.menu2 .menu-bar a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menu2 .menu-bar a:hover {
+    background-color: #ddd;
+}
+
+.content-section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content-section h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    color: #333;
+}
+
+.content-section p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.content-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.content-section ul li {
+    margin-bottom: 10px;
+}
+
+.connect-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.connect-button:hover {
+    background-color: #45a049;
+}
+
+.contact-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+   
+    width: 100%;
+    bottom: 0;
+}
