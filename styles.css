@@ -12,7 +12,7 @@ header {
     padding: 1em 0;
 }
 nav.menu1 {
-    background-color: #444;
+    background-color: none;
     text-align: center;
     padding: 10px 0;
 }
@@ -173,11 +173,131 @@ nav.menu1 {
 }
 
 footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 20px 0; /* Padding top and bottom */
+    text-align: center; /* Center align text */
+}
+
+.footer-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly */
+    max-width: 1200px; /* Limit maximum width */
+    margin: 0 auto; /* Center align horizontally */
+    padding: 0 20px; /* Padding left and right */
+}
+
+.footer-left {
+    text-align: left; /* Left align text */
+}
+
+.footer-left h3 {
+    font-size: 18px; /* Footer heading size */
+}
+
+.footer-left ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+}
+
+.footer-left ul li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+.footer-left ul li a {
+    color: #fff; /* White text color for links */
+    text-decoration: none; /* Remove underline */
+}
+
+.footer-left ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.social-links {
+    margin-top: 10px; /* Space above social icons */
+}
+
+.social-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    color: #333;
+    font-size: 20px;
     text-align: center;
-    padding: 10px 0;
+    line-height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.social-icon:hover {
     background-color: #333;
     color: #fff;
-   
+}
+
+.footer-right {
+    text-align: right; /* Right align text */
+}
+
+.footer-right p {
+    font-size: 14px; /* Font size for footer text */
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        text-align: center; /* Center align text */
+    }
+
+    .footer-left,
+    .footer-right {
+        text-align: center; /* Center align text on smaller screens */
+        margin-bottom: 20px; /* Space between sections */
+    }
+}
+
+/* Styles for the Services section */
+#services {
+    display: none; /* Initially hidden */
+    padding: 20px;
+}
+
+.menu2 {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.menu-bar {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+    margin: 0;
+}
+
+.menu-bar button {
+    border: none; /* Remove default button border */
+    background: none; /* Transparent background */
+    cursor: pointer;
+    margin-bottom: 5px;
+    display: block;
     width: 100%;
-    bottom: 0;
+    text-align: left;
+}
+
+.menu-bar button:hover {
+    background-color: #e0e0e0; /* Light gray on hover */
+}
+
+.menu-bar li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.menu-bar li a:hover {
+    background-color: #ddd; /* Light gray on hover */
+    color: #000;
 }
